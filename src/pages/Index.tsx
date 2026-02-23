@@ -1,12 +1,28 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Navbar";
+import Foundation from "@/components/Foundation";
+import AboutFloor from "@/components/AboutFloor";
+import SkillsFloor from "@/components/SkillsFloor";
+import ProjectsFloor from "@/components/ProjectsFloor";
+import InternshipFloor from "@/components/InternshipFloor";
+import CertificationsFloor from "@/components/CertificationsFloor";
+import ContactTerrace from "@/components/ContactTerrace";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <Foundation />
+      <AboutFloor />
+      <SkillsFloor />
+      <ProjectsFloor />
+      <InternshipFloor />
+      <CertificationsFloor />
+      <ContactTerrace />
+      <footer className="text-center py-6 border-t border-border">
+        <p className="font-mono text-xs text-muted-foreground">
+          © 2025 SRIMATHI RAJKUMAR — Built with precision
+        </p>
+      </footer>
     </div>
   );
 };
