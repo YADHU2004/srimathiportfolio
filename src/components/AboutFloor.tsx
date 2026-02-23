@@ -22,7 +22,7 @@ const AboutFloor = () => {
               CIVIL ENGINEERING STUDENT
             </h2>
             <p className="text-secondary-foreground leading-relaxed mb-4">
-              A dedicated 3rd year Civil Engineering student with a deep passion for
+              A dedicated  Civil Engineering student with a deep passion for
               Structural Design and Sustainable Infrastructure. Committed to applying
               engineering principles to create safe, efficient, and environmentally
               responsible structures.

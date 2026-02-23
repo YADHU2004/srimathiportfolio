@@ -19,9 +19,9 @@ const ContactTerrace = () => {
 
           <div className="grid sm:grid-cols-2 gap-4 mb-10">
             {[
-              { label: "EMAIL", value: "srimathi@email.com", href: "mailto:srimathi@email.com" },
-              { label: "PHONE", value: "+91 XXXXX XXXXX", href: "tel:+91" },
-              { label: "LINKEDIN", value: "linkedin.com/in/srimathi", href: "https://linkedin.com" },
+              { label: "EMAIL", value: "srimathirajkumarr777@email.com", href: "mailto:srimathirajkumarr777@email.com" },
+              { label: "PHONE", value: "+91 7871185501", href: "tel:+91 7871185501" },
+              { label: "LINKEDIN", value: "Srimathirajkumar", href: "https://www.linkedin.com/in/srimathirajkumar/" },
               { label: "LANGUAGES", value: "Tamil (Native) • English (Fluent)", href: null },
             ].map((item, i) => (
               <motion.div

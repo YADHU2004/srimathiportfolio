@@ -20,7 +20,7 @@ const Index = () => {
       <ContactTerrace />
       <footer className="text-center py-6 border-t border-border">
         <p className="font-mono text-xs text-muted-foreground">
-          © 2025 SRIMATHI RAJKUMAR — Built with precision
+          © 2026 SRIMATHI RAJKUMAR — Built with precision
         </p>
       </footer>
     </div>

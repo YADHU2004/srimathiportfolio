@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import profileImg from "@/assets/profile.png";
+import profileImg from "@/assets/srimathiimage.jpeg";
 const BuildingOutline = () => (
   <motion.svg
     viewBox="0 0 400 500"
-    className="absolute right-0 bottom-0 w-64 md:w-80 lg:w-96 opacity-20"
+    className="absolute right-0 bottom-0 w-75 md:w-90 lg:w-96 opacity-20"
     initial={{ opacity: 0 }}
     animate={{ opacity: 0.2 }}
     transition={{ duration: 1 }}
@@ -93,10 +93,10 @@ const Foundation = () => {
                 VIEW PROJECTS
               </a>
               <a
-                href="#contact"
+                href="/resume"
                 className="inline-flex items-center gap-2 px-6 py-3 border border-primary text-primary font-display text-sm tracking-wider hover:bg-primary/10 transition-all duration-300"
               >
-                DOWNLOAD RESUME
+                VIEW & DOWNLOAD RESUME
               </a>
             </div>
           </motion.div>
@@ -109,16 +109,24 @@ const Foundation = () => {
             className="relative group flex-shrink-0"
           >
             {/* Outer radial glow */}
-            <div className="absolute -inset-8 rounded-full bg-[radial-gradient(circle,hsl(199,80%,55%,0.15)_0%,transparent_70%)] group-hover:bg-[radial-gradient(circle,hsl(199,80%,55%,0.25)_0%,transparent_70%)] transition-all duration-700" />
+            <div className="absolute -inset-16 rounded-full bg-[radial-gradient(circle,hsl(199,80%,55%,0.15)_0%,transparent_70%)] group-hover:bg-[radial-gradient(circle,hsl(199,80%,55%,0.25)_0%,transparent_70%)] transition-all duration-700" />
             {/* Inner glow ring */}
-            <div className="absolute -inset-3 rounded-full bg-[radial-gradient(circle,hsl(199,60%,60%,0.1)_0%,transparent_60%)] group-hover:bg-[radial-gradient(circle,hsl(199,60%,60%,0.18)_0%,transparent_60%)] transition-all duration-700" />
+            <div className="absolute -inset-6 rounded-full bg-[radial-gradient(circle,hsl(199,60%,60%,0.1)_0%,transparent_60%)] group-hover:bg-[radial-gradient(circle,hsl(199,60%,60%,0.18)_0%,transparent_60%)] transition-all duration-700" />
             {/* Floating animation wrapper */}
             <motion.div
               animate={{ y: [0, -6, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             >
-              <div className="relative w-44 h-44 md:w-56 md:h-56 rounded-full overflow-hidden border-2 border-primary/30 group-hover:border-primary/50 transition-all duration-500 shadow-[0_0_30px_hsl(199,80%,55%,0.12)] group-hover:shadow-[0_0_45px_hsl(199,80%,55%,0.22)]">
-                <img
+<div className="relative 
+  w-64 h-64 
+  md:w-80 md:h-80 
+  lg:w-[380px] lg:h-[380px] 
+  rounded-full overflow-hidden 
+  border-2 border-primary/30 
+  group-hover:border-primary/50 
+  transition-all duration-500 
+  shadow-[0_0_40px_hsl(199,80%,55%,0.18)] 
+  group-hover:shadow-[0_0_70px_hsl(199,80%,55%,0.35)]">                <img
                   src={profileImg}
                   alt="Srimathi Rajkumar"
                   className="w-full h-full object-cover"
